@@ -79,7 +79,7 @@ header {
 .content-top-text {
     height: 100px;
     color: #444;
-    font-size: 40px;
+    font-size: 34px;
     text-transform: uppercase;
 }
 .content-top-text span {
@@ -107,6 +107,10 @@ header {
     color: #fff;
     font-size: 20px;
     text-transform: uppercase;
+    -o-box-shadow: 1px 5px 5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 1px 5px 5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 1px 5px 5px rgba(0,0,0,0.5);
+    box-shadow: 1px 5px 5px rgba(0,0,0,0.5);
 }
 .lesson-article-text {
     display: block;
@@ -194,3 +198,70 @@ header {
     width: 97%;
     margin-left: 1.5%;
 }
+.footer-top-bg {
+    background: url('../img/footer-button-bg.jpg') repeat-x;
+    height: 134px;
+}
+.footer-top-bg a {
+    text-decoration: none;
+}
+.footer-top-text {
+    display: block;
+    color: #555;
+    text-transform: uppercase;
+    font-size: 34px;
+    margin-top: 43px;
+}
+.footer-top-button {
+    display: block;
+    position: relative;
+    background-color: #3fba02;
+    height: 58px;
+    margin-top: 40px;
+    margin-left: 40px;
+    -o-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.footer-top-button-text {
+    color: #fff;
+    text-transform: uppercase;
+    display: block;
+    font-size: 20px;
+    position: relative;
+    top: 15px;
+}
+.footer-main-bg {
+    background-color: #89cfff;
+    height: 533px;
+    padding: 0;
+}
+.footer-main-top {
+    height: 466px;
+}
+.footer-main-topic {
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-top: 25px;
+}
+.footer-main-line {
+    height: 2px;
+    background-color: #b5e1ff;
+}
+.footer-nav a {
+    text-decoration: none;
+    color: #444;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.footer-nav ul {
+    margin-top: 23px;
+}
+.footer-nav ul li {
+    display: inline-block;
+    margin-right: 16px;
+}
+
