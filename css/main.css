@@ -44,8 +44,9 @@ header {
     background: rgba(73,80,86,0.66);
     height: 108px;
     margin-top: 384px;
-    margin-left: 0;
-    margin-right: 0;
+
+    width: 110%;
+    margin-left: -5%;
 }
 .header-banner-text {
     text-transform: uppercase;
@@ -56,8 +57,10 @@ header {
 .header-banner-button {
     position: relative;
     height: 60px;
+    width: 220px;
     background-color: #3fba02;
     margin-top: 24px;
+    margin-left: 50px;
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -70,7 +73,6 @@ header {
     color: #fff;
     font-size: 24px;
     top: 15px;
-    left: 48px;
 }
 .content-lesson {
     background: url('../img/lessons-bg.jpg') repeat-x;
@@ -263,5 +265,22 @@ header {
 .footer-nav ul li {
     display: inline-block;
     margin-right: 16px;
+}
+.contact-topic {
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 0;
+    margin-top: 17px;
+}
+.contact-text {
+    color: #444;
+    font-size: 17px;
+}
+#map_canvas {
+    height: 340px;
+    border: 10px solid #fff;
+    margin-top: 17px;
 }
 
