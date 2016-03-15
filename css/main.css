@@ -159,3 +159,38 @@ header {
     text-transform: uppercase;
     font-size: 14px;
 }
+.content-school {
+    background-color: #fff;
+    height: 560px;
+}
+.school-text {
+    margin: 20px 70px 20px 0;
+}
+.school-img {
+    width: 92%;
+}
+.content-facebook {
+    height: 389px;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+.content-gallery {
+    background-color: #fff;
+    position: relative;
+    margin-bottom: 60px;
+}
+.gallery {
+    border: 1px solid #ebebeb;
+    height: 165px;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 21.5%;
+}
+.gallery-img {
+    display: block;
+    height: 153px;
+    margin-top: 5px;
+    width: 97%;
+    margin-left: 1.5%;
+}
