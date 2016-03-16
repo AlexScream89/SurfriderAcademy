@@ -1,25 +1,31 @@
 header {
-    background: url('../img/header-main.jpg') no-repeat top center;
+    background: url('../img/header-main.jpg') no-repeat center center;
     background-size: 100%;
     height: 704px;
 }
 .header-menu-bg {
     background-color: #1fa3ff;
     height: 65px;
+    border: none;
+    border-radius: 0;
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
 }
 .header-logo {
+    display: block;
     margin-top: 11px;
 }
 .header-nav ul li {
-    display: inline-block;
-    margin-left: 45px;
-    padding-top: 23px;
+    padding-top: 6px;
+    margin-right: 33px;
 }
 .header-nav ul li a {
-    text-decoration: none;
-    color: #fff;
     text-transform: uppercase;
     font-size: 18px;
+    font-family: 'Open Sans';
+    colof: #fff;
 }
 .header-button {
     position: relative;
@@ -37,21 +43,48 @@ header {
     text-decoration: none;
     color: #fff;
     font-size: 18px;
-    top: 10px;
-    left: 15px;
+    font-family: 'Open Sans';
+    top: -10px;
 }
 .header-banner-bg {
     background: rgba(73,80,86,0.66);
     height: 108px;
     margin-top: 384px;
-
     width: 110%;
     margin-left: -5%;
 }
+
+@media only screen and (max-width: 1310px) {
+    .header-banner-bg {
+        width: 106%;
+        margin-left: -3%;
+    }
+}
+@media only screen and (max-width: 1276px) {
+    .header-banner-bg {
+        width: 102%;
+        margin-left: -1%;
+    }
+    header {
+        height: 680px;
+    }
+}
+@media only screen and (max-width: 1230px) {
+    .header-banner-bg {
+        margin-top: 370px;
+        width: 100%;
+        margin-left: 0;
+    }
+    header {
+        height: 660px;
+    }
+}
+
 .header-banner-text {
     text-transform: uppercase;
     color: #fff;
     font-size: 48px;
+    font-family: 'Myriad Pro';
     margin-top: 22px;
 }
 .header-banner-button {
@@ -72,16 +105,154 @@ header {
     text-decoration: none;
     color: #fff;
     font-size: 24px;
-    top: 15px;
+    font-family: 'Open Sans';
+    top: 12px;
 }
+
+@media only screen and (max-width: 1199px) {
+    .header-nav ul li {
+        margin-right: 0;
+    }
+    .header-button a {
+        left: 0;
+    }
+    .header-banner-bg {
+        width: 110%;
+        margin-left: -5%;
+        margin-top: 350px;
+    }
+    .header-banner-text {
+        font-size: 44px;
+    }
+    .header-banner-button {
+        margin-left: 10px;
+    }
+    header {
+        height: 640px;
+    }
+}
+@media only screen and (max-width: 1158px) {
+    header {
+        height: 600px;
+    }
+    .header-banner-bg {
+        margin-top: 320px;
+    }
+}
+@media only screen and (max-width: 1090px) {
+    header {
+        height: 560px;
+    }
+    .header-banner-bg {
+        margin-top: 280px;
+        width: 104%;
+        margin-left: -2%;
+    }
+    .header-banner-text {
+        font-size: 42px;
+    }
+}
+@media only screen and (max-width: 1030px) {
+    .header-banner-bg {
+        margin-top: 260px;
+    }
+    .header-banner-text {
+        font-size: 42px;
+    }
+    header {
+        height: 540px;
+    }
+    .header-button a {
+        left: 2px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .header-banner-bg {
+        width: 120%;
+        margin-left: -10%;
+    }
+    .header-menu-bg > .container {
+        width: 100%;
+    }
+    .header-banner-text {
+        font-size: 37px;
+        margin-top: 28px;
+    }
+    .header-banner-button {
+        width: 160px;
+    }
+    .header-banner-button a {
+        font-size: 19px;
+        top: 16px;
+    }
+}
+@media only screen and (max-width: 983px) {
+    .header-nav ul li a {
+        font-size: 16px;
+    }
+    header {
+        height: 500px;
+    }
+    .header-banner-bg {
+        margin-top: 240px;
+    }
+}
+@media only screen and (max-width: 928px) {
+    .header-nav ul li a {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 909px) {
+    header {
+        height: 460px;
+    }
+    .header-banner-bg {
+        margin-top: 200px;
+    }
+    .header-banner-bg {
+        width: 110%;
+        margin-left: -5%;
+    }
+    .header-banner-text {
+        font-size: 35px;
+        margin-top: 30px;
+    }
+}
+@media only screen and (max-width: 872px) {
+    .header-nav ul li a {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 837px) {
+    header {
+        height: 420px;
+    }
+    .header-banner-bg {
+        margin-top: 160px;
+    }
+}
+@media only screen and (max-width: 817px) {
+    .header-nav ul li a {
+        font-size: 10px;
+    }
+    .header-banner-bg {
+        width: 104%;
+        margin-left: -2%;
+    }
+    .header-banner-text {
+        font-size: 32px;
+        margin-top: 33px;
+    }
+}
+
 .content-lesson {
     background: url('../img/lessons-bg.jpg') repeat-x;
-    height: 601px;
 }
 .content-top-text {
     height: 100px;
     color: #444;
-    font-size: 34px;
+    font-size: 40px;
+    font-family: 'Open Sans Codensed Bold';
     text-transform: uppercase;
 }
 .content-top-text span {
@@ -89,7 +260,6 @@ header {
     display: block;
 }
 .lesson {
-    height: 441px;
     background-color: #fff;
     margin: 10px;
     width: 31.5%;
@@ -106,9 +276,7 @@ header {
     margin: 0 5%;
     top: -12px;
     background-color: #28ade4;
-    color: #fff;
-    font-size: 20px;
-    text-transform: uppercase;
+
     -o-box-shadow: 1px 5px 5px rgba(0,0,0,0.5);
     -webkit-box-shadow: 1px 5px 5px rgba(0,0,0,0.5);
     -moz-box-shadow: 1px 5px 5px rgba(0,0,0,0.5);
@@ -118,6 +286,10 @@ header {
     display: block;
     position: relative;
     top: 14px;
+    color: #fff;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-family: 'Open Sans Codensed Bold';
 }
 .lesson-img {
     position: relative;
@@ -131,6 +303,7 @@ header {
     display: block;
     position: relative;
     font-size: 48px;
+    font-family: 'Open Sans Codensed Bold';
     color: #fff;
     margin-left: 5%;
     top: -73px;
@@ -139,9 +312,10 @@ header {
 .lesson-text {
     position: relative;
     font-size: 14px;
+    font-family: 'Open Sans';
     width: 90%;
-    margin: 0 5%;
-    top: -57px;
+    margin: 15px 5%;
+    top: -77px;
     height: 100px;
 }
 .lesson-button {
@@ -164,13 +338,39 @@ header {
     color: #fff;
     text-transform: uppercase;
     font-size: 14px;
+    font-family: 'Open Sans';
+}
+
+@media only screen and (max-width: 1199px) {
+    .lesson {
+        margin: 8.5px;
+    }
+    .lesson-article-text {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .lesson {
+        margin: 6.5px;
+    }
+    .lesson-article-text {
+        font-size: 16px;
+    }
+    .lesson-text {
+        font-size: 12px;
+    }
+    .lesson-button {
+        width: 42%;
+        margin: 0 29%;
+    }
 }
 .content-school {
     background-color: #fff;
-    height: 560px;
 }
 .school-text {
     margin: 20px 70px 20px 0;
+    font-family: 'Open Sans';
+    font-size: 14px;
 }
 .school-img {
     width: 92%;
@@ -200,6 +400,18 @@ header {
     width: 97%;
     margin-left: 1.5%;
 }
+
+@media only screen and (max-width: 1199px) {
+    .gallery {
+        margin: 0 16.5px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .gallery {
+        margin: 0 13px;
+    }
+}
+
 .footer-top-bg {
     background: url('../img/footer-button-bg.jpg') repeat-x;
     height: 134px;
@@ -211,8 +423,9 @@ header {
     display: block;
     color: #555;
     text-transform: uppercase;
-    font-size: 34px;
-    margin-top: 43px;
+    font-size: 40px;
+    margin-top: 38px;
+    font-family: 'Open Sans';
 }
 .footer-top-button {
     display: block;
@@ -230,9 +443,10 @@ header {
     color: #fff;
     text-transform: uppercase;
     display: block;
-    font-size: 20px;
+    font-size: 24px;
+    font-family: 'Open Sans';
     position: relative;
-    top: 15px;
+    top: 12px;
 }
 .footer-main-bg {
     background-color: #89cfff;
@@ -246,7 +460,8 @@ header {
     display: block;
     color: #fff;
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 30px;
+    font-family: 'Open Sans Codensed Bold';
     margin-top: 25px;
 }
 .footer-main-line {
@@ -257,6 +472,7 @@ header {
     text-decoration: none;
     color: #444;
     font-size: 14px;
+    font-family: 'Open Sans';
     text-transform: uppercase;
 }
 .footer-nav ul {
@@ -264,23 +480,40 @@ header {
 }
 .footer-nav ul li {
     display: inline-block;
-    margin-right: 16px;
+    margin-right: 18px;
 }
 .contact-topic {
     color: #444;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 18px;
+    font-family: 'Open Sans';
     margin-bottom: 0;
     margin-top: 17px;
 }
 .contact-text {
     color: #444;
-    font-size: 17px;
+    font-size: 18px;
+    font-family: 'Open Sans';
 }
 #map_canvas {
     height: 340px;
     border: 10px solid #fff;
     margin-top: 17px;
+}
+
+@media only screen and (max-width: 1199px) {
+    .footer-top-text {
+        font-size: 34px;
+        margin-top: 45px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .footer-top-button {
+        margin-left: 0;
+    }
+    .footer-top-button-text {
+        font-size: 21px;
+    }
 }
 
