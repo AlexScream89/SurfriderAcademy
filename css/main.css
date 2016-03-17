@@ -244,8 +244,187 @@ header {
         margin-top: 33px;
     }
 }
+@media only screen and (max-width: 767px) {
+    .header-banner-bg {
+        width: 102%;
+        margin-left: -1%;
+    }
+    .navbar-collapse {
+        border: none;
+        background: rgba(31,163,255,0.9);
+    }
+    .header-button {
+        width: 30%;
+        margin-left: 35%;
+    }
+    .header-button a {
+        top: -5px;
+    }
+    .header-nav ul li a {
+        font-size: 16px;
+        text-align: center;
+    }
+    .header-menu-bg {
+        z-index: 999;
+    }
+    header {
+        height: 380px;
+    }
+    .header-banner-bg {
+        margin-top: 120px;
+    }
+}
+@media only screen and (max-width: 711px) {
+    .header-banner-text {
+        font-size: 26px;
+        margin-top: 38px;
+    }
+    .header-banner-button {
+        margin-left: 0;
+        width: 150px;
+    }
+    .header-banner-button a{
+        font-size: 16px;
+        top: 19px;
+    }
+}
+@media only screen and (max-width: 693px) {
+    header {
+        height: 340px;
+    }
+    .header-banner-bg {
+        margin-top: 80px;
+    }
+}
+@media only screen and (max-width: 645px) {
+    .header-banner-button {
+        width: 120px;
+    }
+    .header-banner-button a {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 621px) {
+    header {
+        height: 300px;
+    }
+    .header-banner-bg {
+        margin-top: 40px;
+    }
+}
+@media only screen and (max-width: 567px) {
+    .header-banner-text {
+        font-size: 22px;
+        margin-top: 40px;
+    }
+}
+@media only screen and (max-width: 550px) {
+    header {
+        height: 280px;
+    }
+}
+@media only screen and (max-width: 530px) {
+    .header-banner-button {
+        width: 100px;
+    }
+    .header-banner-button a {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 514px) {
+    header {
+        height: 240px;
+    }
+    .header-menu-bg {
+        height: 40px;
+    }
+    .header-banner-bg {
+        height: 80px;
+        margin-top: 60px;
+    }
+    .header-banner-text {
+        font-size: 20px;
+        margin-top: 26px;
+    }
+    .header-banner-button {
+        margin-top: 10px;
+    }
+    .header-button {
+        width: 50%;
+        margin-left: 25%;
+    }
+}
+@media only screen and (max-width: 456px) {
+    .header-banner-text {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+}
+@media only screen and (max-width: 442px) {
+    header {
+        height: 220px;
+    }
+    .header-banner-button {
+        width: 88px;
+    }
+    .header-banner-button a {
+        font-size: 8.5px;
+    }
+}
+@media only screen and (max-width: 406px) {
+    header {
+        height: 200px;
+    }
+    .header-logo img{
+        max-width: 50%;
+    }
+    .header-banner-bg {
+        height: 60px;
+        margin-top: 30px;
+    }
+    .header-banner-text {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .header-banner-button {
+        height: 40px;
+        width: 80px;
+    }
+    .header-banner-button a {
+        top: 10px;
+        font-size: 7px;
+    }
+}
+@media only screen and (max-width: 366px) {
+    .header-banner-text {
+        font-size: 14px;
+        margin-top: 22px;
+    }
+}
+@media only screen and (max-width: 357px) {
+    header {
+        height: 190px;
+    }
+    .header-banner-button {
+        width: 70px;
+    }
+    .header-banner-button a {
+        font-size: 6px;
+    }
+}
+@media only screen and (max-width: 339px) {
+    header {
+        height: 180px;
+    }
+}
+@media only screen and (max-width: 329px) {
+    .header-banner-text {
+        font-size: 13px;
+        margin-top: 24px;
+    }
+}
 
-.content-lesson {
+    .content-lesson {
     background: url('../img/lessons-bg.jpg') repeat-x;
 }
 .content-top-text {
@@ -364,6 +543,37 @@ header {
         margin: 0 29%;
     }
 }
+@media only screen and (max-width: 767px) {
+    .lesson {
+        width: 90%;
+        margin: 5%;
+    }
+    .content-lesson {
+        background: url('../img/lessons-bg.jpg') repeat;
+    }
+    .lesson-article-text {
+        font-size: 24px;
+    }
+    .lesson-text {
+        font-size: 16px;
+    }
+    .lesson-price {
+        font-size: 62px;
+        top: -85px;
+    }
+    .lesson-button-text {
+        font-size: 16px;
+    }
+    .content-top-text {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 442px) {
+    .lesson-text {
+        font-size: 14px;
+    }
+}
+
 .content-school {
     background-color: #fff;
 }
@@ -409,6 +619,21 @@ header {
 @media only screen and (max-width: 991px) {
     .gallery {
         margin: 0 13px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .content-facebook {
+        display: none;
+    }
+    .gallery {
+        width: 46%;
+        margin: 10px 2%;
+    }
+    .school-text {
+        margin-right: 0;
+    }
+    .school-img {
+        width: 100%;
     }
 }
 
@@ -516,4 +741,60 @@ header {
         font-size: 21px;
     }
 }
-
+@media only screen and (max-width: 767px) {
+    .footer-top-bg {
+        height: 268px;
+        background: url('../img/footer-button-bg.jpg') repeat;
+    }
+    .footer-main-bg {
+        height: 760px;
+    }
+    .footer-main-line {
+        display: none;
+    }
+    .footer-nav {
+        display: none;
+    }
+    .footer-main-topic {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 560px) {
+    .contact-text {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .contact-text {
+        font-size: 14px;
+    }
+    .contact-topic {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 435px) {
+    .contact-text {
+        font-size: 12px;
+    }
+    .contact-topic {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 366px) {
+    .contact-text {
+        font-size: 10px;
+    }
+    .contact-topic {
+        font-size: 12px;
+    }
+    .footer-top-button-text {
+        font-size: 18px;
+        top: 16px;
+    }
+    .content-top-text {
+        font-size: 30px;
+    }
+    .lesson-text {
+        font-size: 13px;
+    }
+}
